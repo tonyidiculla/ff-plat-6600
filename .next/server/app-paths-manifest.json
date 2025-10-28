@@ -1,0 +1,17 @@
+{
+  "/_global-error/page": "app/_global-error/page.js",
+  "/_not-found/page": "app/_not-found/page.js",
+  "/admin/page": "app/admin/page.js",
+  "/analytics/page": "app/analytics/page.js",
+  "/channel-partners/page": "app/channel-partners/page.js",
+  "/e-stores/page": "app/e-stores/page.js",
+  "/hms/page": "app/hms/page.js",
+  "/login/page": "app/login/page.js",
+  "/page": "app/page.js",
+  "/pet-emr/page": "app/pet-emr/page.js",
+  "/pets/page": "app/pets/page.js",
+  "/physical-stores/page": "app/physical-stores/page.js",
+  "/subscriptions/page": "app/subscriptions/page.js",
+  "/support/page": "app/support/page.js",
+  "/users/page": "app/users/page.js"
+}

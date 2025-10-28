@@ -1,0 +1,17 @@
+{
+  "/_global-error/page": "/_global-error",
+  "/_not-found/page": "/_not-found",
+  "/admin/page": "/admin",
+  "/analytics/page": "/analytics",
+  "/channel-partners/page": "/channel-partners",
+  "/e-stores/page": "/e-stores",
+  "/hms/page": "/hms",
+  "/login/page": "/login",
+  "/page": "/",
+  "/pet-emr/page": "/pet-emr",
+  "/pets/page": "/pets",
+  "/physical-stores/page": "/physical-stores",
+  "/subscriptions/page": "/subscriptions",
+  "/support/page": "/support",
+  "/users/page": "/users"
+}

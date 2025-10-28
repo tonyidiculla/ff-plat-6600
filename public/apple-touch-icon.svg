@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="180" height="180" viewBox="0 0 64 64" role="img" aria-labelledby="title">
+  <title id="title">Furfield Paw Apple Icon</title>
+  <defs>
+    <radialGradient id="appleGlow" cx="32" cy="36" r="28" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#93c5fd" />
+      <stop offset="1" stop-color="#1d4ed8" />
+    </radialGradient>
+  </defs>
+  <rect x="4" y="4" width="56" height="56" rx="14" fill="#0f172a" />
+  <g transform="translate(0 2)">
+    <circle cx="18" cy="18" r="8" fill="#60a5fa" />
+    <circle cx="46" cy="18" r="8" fill="#60a5fa" />
+    <circle cx="15" cy="34" r="7" fill="#2563eb" />
+    <circle cx="49" cy="34" r="7" fill="#2563eb" />
+    <path d="M32 28c-9 0-16 6.6-16 15.5S23.5 56 32 56s16-6.6 16-12.5S41 28 32 28z" fill="url(#appleGlow)" />
+  </g>
+</svg>

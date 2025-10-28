@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 64 64" role="img" aria-labelledby="title">
+  <title id="title">Furfield Paw Logo</title>
+  <defs>
+    <linearGradient id="pawGradient" x1="16" y1="12" x2="48" y2="52" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#60a5fa" />
+      <stop offset="1" stop-color="#2563eb" />
+    </linearGradient>
+  </defs>
+  <circle cx="18" cy="18" r="8" fill="#3b82f6" />
+  <circle cx="46" cy="18" r="8" fill="#3b82f6" />
+  <circle cx="15" cy="34" r="7" fill="#2563eb" />
+  <circle cx="49" cy="34" r="7" fill="#2563eb" />
+  <path d="M32 28c-9 0-16 6.6-16 15.5S23.5 56 32 56s16-6.6 16-12.5S41 28 32 28z" fill="url(#pawGradient)" />
+</svg>

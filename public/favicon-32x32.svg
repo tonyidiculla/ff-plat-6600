@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 64 64" role="img" aria-labelledby="title">
+  <title id="title">Furfield Paw Icon 32</title>
+  <defs>
+    <linearGradient id="fg32" x1="18" y1="14" x2="46" y2="50" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#60a5fa" />
+      <stop offset="1" stop-color="#1d4ed8" />
+    </linearGradient>
+  </defs>
+  <circle cx="18" cy="18" r="8" fill="#3b82f6" />
+  <circle cx="46" cy="18" r="8" fill="#3b82f6" />
+  <circle cx="15" cy="34" r="7" fill="#2563eb" />
+  <circle cx="49" cy="34" r="7" fill="#2563eb" />
+  <path d="M32 28c-9 0-16 6.6-16 15.5S23.5 56 32 56s16-6.6 16-12.5S41 28 32 28z" fill="url(#fg32)" />
+</svg>
