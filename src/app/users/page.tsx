@@ -234,7 +234,7 @@ export default function UsersManagementPage() {
         // Fetch role assignments with proper RLS policies
         const assignmentsResult = await (supabase as any)
           .schema('public')
-          .from('user_to_role_assignment')
+          .from('user_expertise_assignment')
           .select('*')
         
         console.log('[chart] Assignments query result:', {

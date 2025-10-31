@@ -126,7 +126,7 @@ But the **direct ownership** is at the user level, not organization level.
 Required table structure:
 - `public.profiles.user_platform_id` - User's unique platform ID
 - `public.pets.user_platform_id` - Pet owner's platform ID (matches profiles)
-- `public.user_expertise_assignment` - For admin role checks
+- `public.user_to_role_assignment` - For admin role checks
 - `public.platform_roles` - Role definitions
 
 ## 🔧 Migration Files

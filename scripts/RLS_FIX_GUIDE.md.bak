@@ -4,7 +4,7 @@
 
 The previous RLS policy had a **recursive dependency**:
 - RLS policy calls `is_platform_admin()` function
-- That function queries `user_expertise_assignment` table
+- That function queries `user_to_role_assignment` table
 - But that table has RLS enabled
 - Which calls `is_platform_admin()` again... 
 - **= Infinite loop / No data returned**
@@ -43,7 +43,7 @@ Use a **whitelist approach** that doesn't query the same table.
 - Uses a whitelist function that checks `profiles` table only
 - Admins (in whitelist) see all assignments
 - Regular users see only their own assignments
-- No recursion because it doesn't query `user_expertise_assignment`
+- No recursion because it doesn't query `user_to_role_assignment`
 
 **Pros:**
 - ✅ Proper security (users only see their own data)

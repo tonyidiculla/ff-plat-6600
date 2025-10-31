@@ -175,7 +175,7 @@ export function StandardizedHeader({
             // eslint-disable-next-line @typescript-eslint/no-explicit-any
             const { data: roleAssignments, error: roleError } = await (supabase as any)
               .schema('public')
-              .from('user_expertise_assignment')
+              .from('user_to_role_assignment')
               .select('platform_role_id')
               .eq('user_platform_id', userPlatformId)
 
@@ -237,7 +237,7 @@ export function StandardizedHeader({
             console.log('[profile] 1. auth.id →', user.id)
             console.log('[profile] 2. profiles.user_id → profile found')
             console.log('[profile] 3. profiles.user_platform_id →', userPlatformId)
-            console.log('[profile] 4. user_expertise_assignment.platform_role_id →', roleIds)
+            console.log('[profile] 4. user_to_role_assignment.platform_role_id →', roleIds)
             console.log('[profile] 5. platform_roles.id →', primaryRole.role_name)
             console.log('[profile] 6. employee_to_hospital_role_assignment.user_platform_id →', hospitalAssignments?.length || 0, 'assignments')
           } else {

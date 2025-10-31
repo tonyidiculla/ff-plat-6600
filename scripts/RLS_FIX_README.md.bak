@@ -1,7 +1,7 @@
 # Fix RLS Policies for Role Assignments
 
 ## Problem
-The `user_expertise_assignment` table has RLS policies that prevent platform admins from viewing all role assignments.
+The `user_to_role_assignment` table has RLS policies that prevent platform admins from viewing all role assignments.
 
 ## Solution
 Apply proper RLS policies that allow:
@@ -61,7 +61,7 @@ The following roles are considered "Platform Admin":
 Run this query to verify the policy is working:
 
 ```sql
-SELECT COUNT(*) FROM public.user_expertise_assignment;
+SELECT COUNT(*) FROM public.user_to_role_assignment;
 ```
 
 If you're a platform admin, you should see 73 records.

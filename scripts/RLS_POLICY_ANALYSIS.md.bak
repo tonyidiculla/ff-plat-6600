@@ -1,4 +1,4 @@
-# RLS Policy Analysis - user_expertise_assignment
+# RLS Policy Analysis - user_to_role_assignment
 
 ## 🔍 Current Issues
 
@@ -109,7 +109,7 @@ Run the corrected SQL script: `scripts/fix-rls-policies-corrected.sql`
 After applying, run this query:
 
 ```sql
-SELECT COUNT(*) FROM public.user_expertise_assignment;
+SELECT COUNT(*) FROM public.user_to_role_assignment;
 ```
 
 **As Platform Admin:** Should return **73**  
